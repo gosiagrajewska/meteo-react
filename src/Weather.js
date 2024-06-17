@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { MutatingDots } from "react-loader-spinner";
 
 export default function Weather(props) {
   let [temperature, setTemperature] = useState(null);
