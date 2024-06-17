@@ -19,7 +19,7 @@ export default function Forecast(props) {
   }
 
   if (props.place === "") {
-    return <h2></h2>;
+    return <h2> </h2>;
   } else {
     let apiKey = `3fdc8cfbf2d6fa0116c9ae92d3df4f79`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.place}&appid=${apiKey}&units=metric`;

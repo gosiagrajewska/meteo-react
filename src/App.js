@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <h1>Weather Search Engine</h1>
       <Search />
-      <h2></h2>
+      <h2> </h2>
     </div>
   );
 }
